@@ -38,7 +38,11 @@ const FAQAccordion = () => {
     return (
         <div className="main-div">
             <div className="accordion">
-                {faqs.map((faq, index) => ())}
+                {faqs.map((faq, index) => (
+                    <div key={index} className='accordion-item'>
+                        <div className='accordion-header' onClick={() => handleClick(index)}>
+
+                ))}
             </div>
         </div>
     );
