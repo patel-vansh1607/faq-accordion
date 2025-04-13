@@ -19,3 +19,12 @@
   .accordion-item {
     border-bottom: 1px solid #2f4a5a;
   }
+  .accordion-header {
+    padding: 18px 24px;
+    color: #e0f2f1;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
