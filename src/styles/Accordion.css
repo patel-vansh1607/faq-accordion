@@ -43,7 +43,7 @@
   }
   
   .accordion-icon.open {
-    transform: rotate(45deg); /* + to x */
+    transform: rotate(45deg);
   }
   
   .accordion-content {
