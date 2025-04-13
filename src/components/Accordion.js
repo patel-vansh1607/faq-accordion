@@ -38,20 +38,19 @@ const FAQAccordion = () => {
     return (
         <div className="main-div">
             <div className="accordion">
-                {faqs.map((faq, index) => (
-                    <div key={index} className='accordion-item'>
-                        <div className='accordion-header' onClick={() => handleClick(index)}>
-                            <h3>{faq.questions}</h3>
-                            <span className={`accordion-icon ${activeIndex === index ? 'open' : ''}`}>Open</span>
+            {faqs.map((faq, index) => (
+                    <div key={index} className="accordion-item">
+                        <div className="accordion-header" onClick={() => handleClick(index)}>
+                            <h3>{faq.question}</h3>
+                            <span className={`accordion-icon ${activeIndex === index ? 'open' : ''}`}>+</span> {/* Or a suitable icon */}
                         </div>
                         {activeIndex === index && (
-                            <div
-                            className='accordion-content'>
+                            <div className="accordion-content">
                                 <p>{faq.answer}</p>
-                             </div>
+                            </div>
                         )}
                     </div>
-                ))}
+))}
             </div>
         </div>
     );
