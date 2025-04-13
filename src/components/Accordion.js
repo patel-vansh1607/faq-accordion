@@ -41,6 +41,8 @@ const FAQAccordion = () => {
                 {faqs.map((faq, index) => (
                     <div key={index} className='accordion-item'>
                         <div className='accordion-header' onClick={() => handleClick(index)}>
+                            <h3>{faq.questions}</h3>
+                            <span className={`accordion-icon ${activeIndex === index ? 'open' : ''}`}>Open</span>
 
                 ))}
             </div>
