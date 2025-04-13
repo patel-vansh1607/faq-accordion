@@ -1,0 +1,9 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+    background-color: #1d2a35;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
