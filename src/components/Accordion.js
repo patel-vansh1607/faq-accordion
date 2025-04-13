@@ -43,7 +43,14 @@ const FAQAccordion = () => {
                         <div className='accordion-header' onClick={() => handleClick(index)}>
                             <h3>{faq.questions}</h3>
                             <span className={`accordion-icon ${activeIndex === index ? 'open' : ''}`}>Open</span>
-
+                        </div>
+                        {activeIndex === index && (
+                            <div
+                            className='accordion-content'>
+                                <p>{faq.answer}</p>
+                             </div>
+                        )}
+                    </div>
                 ))}
             </div>
         </div>
