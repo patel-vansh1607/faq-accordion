@@ -28,3 +28,11 @@
     align-items: center;
     transition: background-color 0.2s ease;
   }
+  .accordion-header:hover {
+    background-color: #2c3e4f;
+  }
+  .accordion-header h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+  }
