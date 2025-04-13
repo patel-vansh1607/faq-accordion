@@ -1,7 +1,7 @@
 [![Project Banner](./src//images/readme-project-banner-01.png)](https://calculator-reactt.vercel.app/)
 ---
-# 🚀 **Calculator App**  
-> _A website where user can use the calculator to perform simple arithmetic problems_
+# 🚀 **FAQ Accordion**  
+> _A website where user can see FAQ and see how they work_
 ---
 
 ## 🔥 **Features**
@@ -15,10 +15,10 @@
 ## 📦 **Installation**
 ```bash
 # Clone the repo
- git clone https://github.com/patel-vansh1607/calculator-react
+ git clone https://github.com/patel-vansh1607/faq-accordion
 
 # Navigate into the project
- cd calculator-react
+ cd faq-accordion
 
 # Install dependencies
  npm install
