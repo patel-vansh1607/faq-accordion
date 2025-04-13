@@ -1,4 +1,4 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://calculator-reactt.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)](https://faq-accordion-ten-nu.vercel.app/)
 ---
 # 🚀 **FAQ Accordion**  
 > _A website where user can see FAQ and see how they work_
