@@ -36,3 +36,22 @@
     font-size: 18px;
     font-weight: 500;
   }
+  .accordion-icon {
+    font-size: 22px;
+    color: #9fb3c8;
+    transition: transform 0.2s ease;
+  }
+  
+  .accordion-icon.open {
+    transform: rotate(45deg); /* + to x */
+  }
+  
+  .accordion-content {
+    background-color: #1f2b35;
+    color: #cfd8dc;
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    animation: slideDown 0.2s ease-out;
+  }
+  
