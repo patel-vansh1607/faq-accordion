@@ -7,3 +7,13 @@
     min-height: 100vh;
     box-sizing: border-box;
   }
+  .accordion {
+    width: 100%;
+    max-width: 750px;
+    background-color: #22313f;
+    border-radius: 10px;
+    border: 1px solid #2f4a5a;
+    overflow: hidden;
+    font-family: 'ManropeRegular', sans-serif;
+  }
+  
